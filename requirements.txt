@@ -1,0 +1,9 @@
+Flask
+flask-cors
+werkzeug
+pandas
+numpy
+scikit-learn
+joblib
+openai
+scipy

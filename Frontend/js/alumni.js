@@ -1,0 +1,2 @@
+requireLogin();
+async function load(q=""){let d=await api("/alumni?q="+encodeURIComponent(q));alumniGrid.innerHTML=d.alumni.map(p=>`<div class="person"><div class="initial">${p.name[0]}</div><h3>${p.name}</h3><p><b>${p.job_role}</b></p><p>🏢 ${p.department}</p><p>📍 ${p.location} · ${p.experience} yrs</p><p>🛠 ${p.skills}</p><p>💡 ${p.interests}</p><a class="btn" href="messages.html?to=${p.id}">Message</a></div>`).join("")}searchBtn.onclick=()=>load(search.value);load()

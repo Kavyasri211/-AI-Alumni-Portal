@@ -1,0 +1,2 @@
+const u3=requireLogin();(async()=>{let d=await api(`/alumni/${u3.id}`);Object.entries(d.alumni).forEach(([k,v])=>{let e=document.querySelector(`[name="${k}"]`);if(e)e.value=v??""})})();
+profileForm.onsubmit=async e=>{e.preventDefault();let d=await api(`/alumni/${u3.id}`,{method:"PUT",body:JSON.stringify(Object.fromEntries(new FormData(profileForm)))});localStorage.alumniUser=JSON.stringify({...u3,...d.alumni});status.textContent="Profile updated successfully."}

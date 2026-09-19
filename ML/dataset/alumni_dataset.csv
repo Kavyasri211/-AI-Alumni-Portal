@@ -1,0 +1,9 @@
+name,department,skills,experience,job_role,interests,location,previous_role
+Rahul Kumar,Engineering,"Python,AWS,Docker,Flask",5,Software Engineer,"Cloud,AI,Open Source",Hyderabad,Backend Developer
+Priya Sharma,Engineering,"Python,Azure,SQL,Machine Learning",4,Cloud Engineer,"AI,Cloud,Data",Bengaluru,Software Engineer
+Arjun Rao,Data,"Python,SQL,Power BI,ML",6,Data Analyst,"Analytics,AI,Finance",Hyderabad,Data Analyst
+Sneha Reddy,Commerce,"Excel,Finance,SQL,Communication",3,Business Analyst,"Finance,Networking,Startups",Chennai,Finance Associate
+Vikram Singh,Engineering,"Java,Spring,AWS,Kubernetes",7,Senior Developer,"Cloud,DevOps,Technology",Pune,Java Developer
+Ananya Das,Marketing,"SEO,Content,Analytics,CRM",5,Marketing Manager,"Branding,Startups,Media",Mumbai,Marketing Executive
+Kiran Patel,Engineering,"Python,AWS,React,Flask",4,Full Stack Developer,"Cloud,AI,Web",Hyderabad,Developer
+Meera Nair,Data,"Python,SQL,Tableau,ML",5,Data Scientist,"AI,Analytics,Research",Bengaluru,Data Analyst
