@@ -1,0 +1,11 @@
+[project]
+name = "ai-alumni-portal"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "flask-cors"
+]
+
+[tool.vercel]
+entrypoint = "Backend.app:app"
